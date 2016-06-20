@@ -1,0 +1,17 @@
+{
+    "name": "sazpector",
+    "version": "0.1",
+    "description": "saz live state inspector",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs", 
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 2
+}

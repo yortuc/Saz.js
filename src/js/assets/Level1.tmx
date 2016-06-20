@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="24" tilewidth="128" tileheight="128" nextobjectid="1">
+ <tileset firstgid="1" name="images" tilewidth="256" tileheight="512" tilecount="79">
+  <tile id="0">
+   <image width="182" height="182" source="../../../dist/images/pad.png"/>
+  </tile>
+  <tile id="1">
+   <image width="131" height="188" source="../../../dist/images/player.png"/>
+  </tile>
+  <tile id="2">
+   <image width="256" height="512" source="../../../dist/images/p1_walk.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../../../dist/images/bomb.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../../../dist/images/bombWhite.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../../../dist/images/box_done.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../../../dist/images/box.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../../../dist/images/boxCoin_boxed.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../dist/images/boxCoin_disabled_boxed.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../dist/images/boxCoin_disabled.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../../../dist/images/boxCoin.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../../../dist/images/boxCrate_double.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../../../dist/images/boxCrate_single.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../../../dist/images/boxCrate_warning.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../../../dist/images/boxCrate.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../../../dist/images/boxExplosive_disabled.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../../../dist/images/boxExplosive_used.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../../../dist/images/boxExplosive.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../../../dist/images/boxItem_boxed.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../../../dist/images/boxItem_disabled_boxed.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="../../../dist/images/boxItem_disabled.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="../../../dist/images/boxItem.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="../../../dist/images/brickBrown.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="../../../dist/images/brickGrey.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="../../../dist/images/bridgeA.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="../../../dist/images/bridgeB.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="../../../dist/images/bush.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="../../../dist/images/cactus.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="../../../dist/images/chain.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="128" source="../../../dist/images/doorClosed_mid.png"/>
+  </tile>
+  <tile id="30">
+   <image width="128" height="128" source="../../../dist/images/doorClosed_top.png"/>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="../../../dist/images/doorOpen_mid.png"/>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="../../../dist/images/doorOpen_top.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="128" source="../../../dist/images/empty.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="../../../dist/images/fence.png"/>
+  </tile>
+  <tile id="35">
+   <image width="128" height="128" source="../../../dist/images/fenceBroken.png"/>
+  </tile>
+  <tile id="36">
+   <image width="128" height="128" source="../../../dist/images/grass.png"/>
+  </tile>
+  <tile id="37">
+   <image width="128" height="128" source="../../../dist/images/ladderMid.png"/>
+  </tile>
+  <tile id="38">
+   <image width="128" height="128" source="../../../dist/images/ladderTop.png"/>
+  </tile>
+  <tile id="39">
+   <image width="128" height="128" source="../../../dist/images/lava.png"/>
+  </tile>
+  <tile id="40">
+   <image width="128" height="128" source="../../../dist/images/lavaTop_high.png"/>
+  </tile>
+  <tile id="41">
+   <image width="128" height="128" source="../../../dist/images/lavaTop_low.png"/>
+  </tile>
+  <tile id="42">
+   <image width="128" height="128" source="../../../dist/images/leverLeft.png"/>
+  </tile>
+  <tile id="43">
+   <image width="128" height="128" source="../../../dist/images/leverMid.png"/>
+  </tile>
+  <tile id="44">
+   <image width="128" height="128" source="../../../dist/images/leverRight.png"/>
+  </tile>
+  <tile id="45">
+   <image width="128" height="128" source="../../../dist/images/lockBlue.png"/>
+  </tile>
+  <tile id="46">
+   <image width="128" height="128" source="../../../dist/images/lockGreen.png"/>
+  </tile>
+  <tile id="47">
+   <image width="128" height="128" source="../../../dist/images/lockRed.png"/>
+  </tile>
+  <tile id="48">
+   <image width="128" height="128" source="../../../dist/images/lockYellow.png"/>
+  </tile>
+  <tile id="49">
+   <image width="128" height="128" source="../../../dist/images/mushroomBrown.png"/>
+  </tile>
+  <tile id="50">
+   <image width="128" height="128" source="../../../dist/images/mushroomRed.png"/>
+  </tile>
+  <tile id="51">
+   <image width="128" height="128" source="../../../dist/images/plantPurple.png"/>
+  </tile>
+  <tile id="52">
+   <image width="128" height="128" source="../../../dist/images/rock.png"/>
+  </tile>
+  <tile id="53">
+   <image width="128" height="128" source="../../../dist/images/sign.png"/>
+  </tile>
+  <tile id="54">
+   <image width="128" height="128" source="../../../dist/images/signExit.png"/>
+  </tile>
+  <tile id="55">
+   <image width="128" height="128" source="../../../dist/images/signLeft.png"/>
+  </tile>
+  <tile id="56">
+   <image width="128" height="128" source="../../../dist/images/signRight.png"/>
+  </tile>
+  <tile id="57">
+   <image width="128" height="128" source="../../../dist/images/snow.png"/>
+  </tile>
+  <tile id="58">
+   <image width="128" height="128" source="../../../dist/images/spikes.png"/>
+  </tile>
+  <tile id="59">
+   <image width="128" height="128" source="../../../dist/images/spring.png"/>
+  </tile>
+  <tile id="60">
+   <image width="128" height="128" source="../../../dist/images/sprung.png"/>
+  </tile>
+  <tile id="61">
+   <image width="128" height="128" source="../../../dist/images/switchBlue_pressed.png"/>
+  </tile>
+  <tile id="62">
+   <image width="128" height="128" source="../../../dist/images/switchBlue.png"/>
+  </tile>
+  <tile id="63">
+   <image width="128" height="128" source="../../../dist/images/switchGreen_pressed.png"/>
+  </tile>
+  <tile id="64">
+   <image width="128" height="128" source="../../../dist/images/switchGreen.png"/>
+  </tile>
+  <tile id="65">
+   <image width="128" height="128" source="../../../dist/images/switchRed_pressed.png"/>
+  </tile>
+  <tile id="66">
+   <image width="128" height="128" source="../../../dist/images/switchRed.png"/>
+  </tile>
+  <tile id="67">
+   <image width="128" height="128" source="../../../dist/images/switchYellow_pressed.png"/>
+  </tile>
+  <tile id="68">
+   <image width="128" height="128" source="../../../dist/images/switchYellow.png"/>
+  </tile>
+  <tile id="69">
+   <image width="128" height="128" source="../../../dist/images/torch1.png"/>
+  </tile>
+  <tile id="70">
+   <image width="128" height="128" source="../../../dist/images/torch2.png"/>
+  </tile>
+  <tile id="71">
+   <image width="128" height="128" source="../../../dist/images/torchOff.png"/>
+  </tile>
+  <tile id="72">
+   <image width="128" height="128" source="../../../dist/images/wall.png"/>
+  </tile>
+  <tile id="73">
+   <image width="128" height="128" source="../../../dist/images/water.png"/>
+  </tile>
+  <tile id="74">
+   <image width="128" height="128" source="../../../dist/images/waterTop_high.png"/>
+  </tile>
+  <tile id="75">
+   <image width="128" height="128" source="../../../dist/images/waterTop_low.png"/>
+  </tile>
+  <tile id="76">
+   <image width="128" height="128" source="../../../dist/images/weight.png"/>
+  </tile>
+  <tile id="77">
+   <image width="128" height="128" source="../../../dist/images/weightAttached.png"/>
+  </tile>
+  <tile id="78">
+   <image width="128" height="128" source="../../../dist/images/window.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="140" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztmEsKwjAQQLMQXHiBLvUMuhH3Qu5/IREaDCEpGfOZNH0PZtFAOqXzOm3HGNBgWQMgB3yBHPBkH7g6WSOv2RKJf3gU7ofjgCcgAV8AQAN6D4RsOYEvEJLjxJ69eWtfwKTQZ/bHSSnv3czfZ1px8aIH4ayu97xOsg9f4B8HRvSmxpwb0pTc19FrYiud57wGjF/zEiS+vLwIwZdjEPuu6xWQz1P7Ala25gKtsOb331LrfahJ6H/r4x7cEuuperWuo41EbUp6mmTvjL5cE+tavrgcfp+p6c3M77tcn6Se+2up50TTF5cn5kxJ/pld+XJkX1yulDNSd2Z3RZsRfHH5wtk9/1xj8AE82R/N
+  </data>
+ </layer>
+</map>
