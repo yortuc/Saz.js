@@ -1,7 +1,7 @@
-###Saz###
+### Saz
 Minimalistic component - entity - system game engine.
 
-####Why?####
+#### Why?
 Saz.js is being developed for js13k game contest in need with the smallest footprint possible. 
 
 1. Seperate Data and Logic.
@@ -9,7 +9,7 @@ Keep whole game state in a single structure which is basically game-entity array
 
 2. No performance optimizations until one is felt deeply. 
 
-####Systems####
+#### Systems
 
 1. PhysicsSolver 
 
